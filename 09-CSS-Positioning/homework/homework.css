@@ -60,12 +60,16 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /*ejercicio 7 */
 #ejerciciosiete{
-    display: flex;   
+    display: flex;
+    flex-direction: column; 
 }
 .elementos{
-    width: 200px;
+    width: 495px;
     height: 200px;
-    flex-direction: column-reverse;
+}
+.textoElemento{
+    font-size: 40px;
+    color: chartreuse;
 }
 
 
